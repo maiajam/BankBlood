@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingEnd="@dimen/my_dimens_sss"
+    android:paddingStart="@dimen/my_dimens_sss"
+    tools:context=".ui.activites.HomeActivity"
+    >
+
+<include android:id="@+id/toolbar" layout="@layout/simple_toolbar"/>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_below="@+id/toolbar"
+    android:id="@+id/PostDetails_Img_Photo"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/PostDetails_Img_Photo"
+        android:layout_marginBottom="-214dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/PostDetals_Txt_PostTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sdfsf" />
+
+        <ImageView
+            android:id="@+id/PostDetals_Img_Fav"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="250dp"
+            android:src="@drawable/ic_fav" />
+    </LinearLayout>
+
+    <include
+        layout="@layout/content_scrolling"
+        android:id="@+id/PostDetails_ScrollingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/PostDetails_Img_Photo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="242dp"
+        android:layout_marginEnd="22dp" />
+
+</RelativeLayout>

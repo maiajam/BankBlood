@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingEnd="@dimen/my_dimens_sss"
+        android:paddingStart="@dimen/my_dimens_sss"
+        tools:context=".ui.activites.HomeActivity"
+        android:orientation="vertical">
+
+
+
+
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/NewReq_name"
+                android:textSize="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:hint="@string/pationName" />
+
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/NewReq_Age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:hint="@string/pationName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+
+            android:id="@+id/NewReq_TxtBloodType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BloodType" />
+
+        <EditText
+            android:id="@+id/NewReq_BloodType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/pationName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+
+            android:id="@+id/NewReq_TxtNoNeeds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NoNeeds" />
+
+        <EditText
+            android:id="@+id/NewReq_NoNeeds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/pationName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+
+            android:id="@+id/NewReq_txtHospName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Hosp" />
+
+        <EditText
+            android:id="@+id/NewReq_Hosp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/pationName" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/NewReq_TxtHospAdrees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="0.90"
+            android:hint="@string/HospAdress" />
+
+        <ImageView
+            android:id="@+id/NewReq_Adress"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.10"
+            android:src="@drawable/ic_fav" />
+    </LinearLayout>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/NewReq_Sp_Mohafza"
+                />
+
+              <Spinner
+                 android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/NewReq_Sp_City"
+                />
+            <EditText
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/NewReq_PhoneNo"
+                android:hint="@string/PhoneNo"/>
+
+        <EditText
+            android:id="@+id/NewReqsNotes"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/PhoneNo" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Call" />
+
+    </LinearLayout>

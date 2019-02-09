@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/my_dimens_sss"
+    android:paddingEnd="8dp"
+    android:orientation="vertical"
+    android:background="@drawable/splash"
+    tools:context=".ui.activites.MainLoginActivity">
+
+    <include layout="@layout/simple_toolbar" />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/RegisterFragment_ET_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/edittect_border"
+        android:hint="@string/Name" />
+
+    <EditText
+
+        android:id="@+id/RegisterFragment_ET_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+       android:layout_marginTop="10dp"
+        android:layout_marginEnd="3dp"
+        android:background="@drawable/edittect_border"
+        android:hint="@string/Email" />
+
+    <EditText
+        android:id="@+id/RegisterFragment_ET_BirthDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+       android:layout_marginTop="10dp"
+        android:background="@drawable/edittect_border"
+        android:hint="@string/BithDay" />
+
+    <EditText
+        android:id="@+id/RegisterFragment_ET_BloodType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+       android:layout_marginTop="10dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/edittect_border"
+        android:hint="@string/BloodType" />
+
+    <EditText
+        android:id="@+id/RegisterFragment_ET_LastDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+       android:layout_marginTop="10dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/edittect_border"
+        android:hint="@string/LastDate" />
+
+    <Spinner
+        android:id="@+id/RegisterFragment_Sp_Region"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/edittect_border" />
+
+    <Spinner
+        android:id="@+id/RegisterFragment_Sp_City"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+       android:layout_marginTop="10dp"
+        android:layout_marginEnd="2dp"
+        android:background="@drawable/edittect_border"
+        android:hint="@string/LastDate" />
+
+    <EditText
+        android:id="@+id/RegisterFragment_ET_PhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+       android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/edittect_border"
+        android:hint="@string/PhoneNo" />
+
+    <EditText
+        android:id="@+id/RegisterFragment_ET_Pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+       android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/edittect_border"
+        android:hint="@string/Pass" />
+
+    <EditText
+        android:id="@+id/RegisterFragment_ET_ConfiPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+       android:layout_marginTop="10dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/edittect_border"
+        android:hint="@string/ConfirmPass" />
+
+    <Button
+        android:id="@+id/RegisterFragment_B_Reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+       android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/Register"
+        android:textColor="@color/colorPrimary" />
+
+</LinearLayout>

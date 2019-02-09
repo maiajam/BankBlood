@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+
+    <include android:id="@+id/newToolbar" layout="@layout/simple_toolbar"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ConnectUs_Img_Logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+            android:src="@mipmap/logo" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:paddingStart="20dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/ic_phone" />
+
+            <TextView
+                android:id="@+id/ConnectUs_Txt_PhoneNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/Phone"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingStart="20dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_mail"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="5dp"/>
+
+            <TextView
+                android:id="@+id/ConnectUs_Txt_Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/EmailCont"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:paddingStart="30dp"
+            android:paddingEnd="20dp">
+
+            <ImageView
+                android:id="@+id/ConnectUs_Img_Gmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:src="@drawable/ic_gmail" />
+
+            <ImageView
+                android:id="@+id/ConnectUs_Img_WhatsApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:src="@drawable/ic_whatsapp" />
+
+            <ImageView
+                android:id="@+id/ConnectUs_Img_Instgram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:src="@drawable/ic_inst" />
+
+            <ImageView
+                android:id="@+id/ConnectUs_Img_Youtube"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:src="@drawable/ic_tube" />
+
+            <ImageView
+                android:id="@+id/ConnectUs_Img_Twiiter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:src="@drawable/ic_twit" />
+
+            <ImageView
+                android:id="@+id/ConnectUs_Img_Facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:src="@drawable/ic_fac" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:text="@string/Connect"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/ConnectUs_Ed_Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edittect_border"
+                android:hint="@string/Title" />
+
+            <EditText
+                android:id="@+id/ConnectUs_Ed_EmailContentt"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edittect_border"
+                android:hint="@string/TitleContent" />
+            <Button
+                android:id="@+id/ConnectUs_Button_Send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorPrimary"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/Send" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

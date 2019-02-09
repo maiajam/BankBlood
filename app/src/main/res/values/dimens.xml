@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+
+
+    <dimen name="my_dimens_sss">8dp</dimen>
+    <dimen name="my_dimens_ss">16dp</dimen>
+    <dimen name="my_dimens_s">24dp</dimen>
+    <dimen name="my_dimens_l">32dp</dimen>
+    <dimen name="my_dimens_40l">40dp</dimen>
+    <dimen name="my_dimens_48l">48dp</dimen>
+    <dimen name="my_dimens_56l">56dp</dimen>
+    <dimen name="my_dimens_64l">64dp</dimen>
+    <dimen name="my_dimens_72l">72dp</dimen>
+    <dimen name="my_dimens_80l">80dp</dimen>
+    <dimen name="my_dimens_88lx">88dp</dimen>
+    <dimen name="my_dimens_96lxx">96dp</dimen>
+    <dimen name="my_dimens_104lxx">104dp</dimen>
+    <dimen name="my_dimens_112lxx">112dp</dimen>
+    <dimen name="my_dimens_120Lx">120dp</dimen>
+    <dimen name="my_dimens_128Lx">128dp</dimen>
+    <dimen name="my_dimens_136Lx">136dp</dimen>
+    <dimen name="my_dimens_144Lx">144dp</dimen>
+    <dimen name="my_dimens_152Lx">120dp</dimen>
+    <dimen name="my_dimens_160Lx">120dp</dimen>
+    <dimen name="my_dimens_168Lx">168dp</dimen>
+    <dimen name="my_dimens_200Lx">200dp</dimen>
+    <dimen name="my_dimens_208Lx">208dp</dimen>
+    <dimen name="my_dimens_216Lx">216dp</dimen>
+    <dimen name="my_dimens_224Lx">224dp</dimen>
+    <dimen name="my_dimens_232Lx">232dp</dimen>
+    <dimen name="my_dimens_240Lx">240dp</dimen>
+    <dimen name="my_dimens_294Lx">294dp</dimen>
+
+</resources>

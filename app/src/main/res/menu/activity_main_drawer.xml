@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Nav_MyInfo"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/MyInfo" />
+        <item
+            android:id="@+id/Nav_NotifcationSetting"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/NotifcationSetting" />
+        <item
+            android:id="@+id/Nav_Fav"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/Fav" />
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/Home" />
+        <item
+            android:id="@+id/Nav_Instruction"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/Instruction" />
+        <item
+            android:id="@+id/Nav_ConnectUs"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/Connect" />
+        <item
+            android:id="@+id/Nav_AboutApp"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/AboutApp" />
+        <item
+            android:id="@+id/Nav_RateApp"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/RateApp" />
+        <item
+            android:id="@+id/Nav_SignOut"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/SignOut" />
+    </group>
+
+
+</menu>

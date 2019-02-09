@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/simpleToolbar">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SimpleToolBar_Img_Back"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/ic_back"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/Title"
+    android:textColor="@color/colorPrimaryDark"
+    android:textSize="15sp"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/SimpleToolBar_Txt_Title"/>
+
+    <RelativeLayout
+        android:id="@+id/SimpleToolBar_ReL_Notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/SimpleToolBar_Img_Notifcation"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_noti"/>
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/SimpleToolBar_B_NotifInd"
+            android:text="1"
+            android:textSize="10sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/circle_red"
+            android:layout_alignStart="@+id/SimpleToolBar_Img_Notifcation"
+            />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.Toolbar>
